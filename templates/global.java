@@ -69,11 +69,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
        // String s=this.getIntent().getStringExtra("id");
        id= Long.parseLong(this.getIntent().getStringExtra("arg0"));
-       // Log.i("gauravrmsc","arg0="+id);
         //id=Long.parseLong();
-     //   Log.i("aaa"," id="+id);
-
-       // Log.i("gauravrmsc","id="+id);
 
         locationManager=(LocationManager)this.getSystemService(Context.LOCATION_SERVICE);
 
